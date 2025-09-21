@@ -1,0 +1,55 @@
+# AI Memory Documentation
+
+## Product Management Updates
+
+### Canon PowerShot G7 X Mark II Camera Addition
+**Date**: Current Session
+**Product Slug**: `canon-powershot-g7-x-mark-ii-digital-camera-20-1mp`
+**Actions Taken**:
+- Updated product JSON file with Canon camera title and specifications
+- Counted and verified 7 JPEG images in public folder
+- Set price to $227.00 as specified
+- Updated description highlighting 4K video capability and vlog features
+- Listed all included accessories (2 batteries, Manfrotto tripod, charger, wrist strap)
+- Set appropriate electronics category for digital cameras
+- Updated SEO metadata for camera-specific keywords
+
+### Ray-Ban Meta Wayfarer Smart Glasses Addition
+**Date**: Current Session
+**Product Slug**: `ray-ban-meta-wayfarer-standard-smart-glasses-shiny-black-clear`
+**Actions Taken**:
+- Updated product JSON file with correct title, description, and pricing
+- Verified and updated image paths (10 JPEG images total)
+- Set appropriate category for smart glasses
+- Updated SEO metadata for search optimization
+
+### Checkout Component Enhancement
+**Date**: Current Session
+**Component**: `/src/app/checkout/page.tsx`
+**Actions Taken**:
+- Added complete list of Netherlands provinces to checkout form
+- Added `netherlandsProvinces` array with all 12 provinces:
+  - Drenthe, Flevoland, Friesland, Gelderland, Groningen, Limburg
+  - North Brabant, North Holland, Overijssel, South Holland, Utrecht, Zeeland
+- Updated `allRegions` array to include Netherlands provinces
+- Now supports province suggestions for US, Canada, UK, Australia, and Netherlands
+
+## Technical Notes
+
+### Product JSON Structure
+- All product data located in `src/lib/products-raw/[slug]/product.json`
+- Images stored in `public/products/[slug]/` directory
+- Image file extensions must match actual files (JPEG, PNG, WEBP)
+- Always count actual images in public folder before updating JSON
+
+### Checkout Form Province Support
+- State/Province suggestions filter based on user input (minimum 2 characters)
+- Supports autocomplete for all major English-speaking countries plus Netherlands
+- Form validates required fields and phone numbers
+- Email integration for shipping notifications
+
+## Context for Future Sessions
+- Project uses Next.js 15 with TypeScript
+- Tailwind CSS for styling
+- Product images must be counted and referenced correctly
+- Netherlands is now fully supported in checkout province selection

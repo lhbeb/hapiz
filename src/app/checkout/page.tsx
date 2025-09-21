@@ -119,7 +119,12 @@ const CheckoutPage: React.FC = () => {
     'South Australia', 'Tasmania', 'Victoria', 'Western Australia'
   ];
 
-  const allRegions = [...usStates, ...canadianProvinces, ...ukRegions, ...australianStates];
+  const netherlandsProvinces = [
+    'Drenthe', 'Flevoland', 'Friesland', 'Gelderland', 'Groningen', 'Limburg',
+    'North Brabant', 'North Holland', 'Overijssel', 'South Holland', 'Utrecht', 'Zeeland'
+  ];
+
+  const allRegions = [...usStates, ...canadianProvinces, ...ukRegions, ...australianStates, ...netherlandsProvinces];
 
   useEffect(() => {
     // Wrap cart access in ClientOnly logic
