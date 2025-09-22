@@ -42,7 +42,7 @@ const PrivacyPolicyPage = () => (
         <ul className="list-none mt-4">
           <li>Phone: +17176484487</li>
           <li>Email: support@happydeel.com</li>
-          <li>Address: 1726 Parsons Ave, Columbus, OH 43207, USA</li>
+          <li>Address: 315 Lancaster Avenue, Haverford, PA 19041, USA</li>
         </ul>
       </div>
     </div>

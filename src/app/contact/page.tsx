@@ -140,7 +140,7 @@ export default function ContactPage() {
                       <MapPin className="h-6 w-6 text-[#0046be] mt-1" />
                       <div className="ml-4">
                         <h3 className="font-medium text-gray-900">Our Location</h3>
-                        <p className="text-gray-600 mt-1">1726 Parsons Ave, Columbus, OH 43207, USA</p>
+                        <p className="text-gray-600 mt-1">315 Lancaster Avenue, Haverford, PA 19041, USA</p>
                       </div>
                     </div>
                     <div className="flex items-start">

@@ -57,7 +57,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 <div>
                   <div className="font-medium text-gray-900">Address:</div>
-                  <div className="text-gray-600">1726 Parsons Ave, Columbus, OH 43207, USA</div>
+                  <div className="text-gray-600">315 Lancaster Avenue, Haverford, PA 19041, USA</div>
                 </div>
                 <div>
                   <div className="font-medium text-gray-900">Phone:</div>

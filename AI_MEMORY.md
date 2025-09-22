@@ -2,6 +2,17 @@
 
 ## Product Management Updates
 
+### Establishment Address Update
+**Date**: Current Session
+**Change**: Updated establishment address from Columbus, OH to Haverford, PA
+**New Address**: 315 Lancaster Avenue, Haverford, PA 19041, USA
+**Files Updated**:
+- `/src/app/about/page.tsx` - Contact Information section
+- `/src/app/contact/page.tsx` - Our Location section
+- `/src/app/privacy-policy/page.tsx` - Contact Information section
+- `/src/components/Footer.tsx` - Footer address display
+**Note**: Address consistently updated across all public-facing pages
+
 ### Canon PowerShot G7 X Mark II Camera Addition
 **Date**: Current Session
 **Product Slug**: `canon-powershot-g7-x-mark-ii-digital-camera-20-1mp`
