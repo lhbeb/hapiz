@@ -81,11 +81,11 @@ const Footer = () => {
           <div className="flex flex-col items-center space-y-4">
             <div className="flex items-center justify-center">
               <Image 
-                src="/secure-checkout.png" 
+                src="/secure-checkout.png?v=2" 
                 alt="Secure Checkout" 
-                width={200}
-                height={32}
-                className="h-8 w-auto max-w-full object-contain" 
+                width={392}
+                height={63}
+                className="h-16 w-auto max-w-full object-contain" 
               />
             </div>
             <p className="text-center">© 2024 HappyDeel. All rights reserved.</p>

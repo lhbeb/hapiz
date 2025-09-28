@@ -2,6 +2,20 @@
 
 ## Product Management Updates
 
+### Secure Checkout Image Cache Fix
+**Date**: Current Session
+**Issue**: Updated secure-checkout.png image not appearing on server due to browser caching
+**Solution**: Added cache-busting parameter `?v=2` to image URLs
+**Size Updates**: 
+- Initial increase: 200x32px to 280x45px (40% larger)
+- Final increase: 280x45px to 392x63px (additional 40% larger)
+- **Total increase**: 96% larger than original size
+**Files Updated**:
+- `/src/app/checkout/page.tsx` - Updated both image references with larger dimensions
+- `/src/components/Footer.tsx` - Updated footer image reference with larger dimensions
+**Technical Note**: Browser caching prevents updated static assets from loading. Cache-busting parameters force browser to reload assets.
+**CSS Classes**: Updated from `h-8` to `h-11` to `h-16` for proper height scaling
+
 ### Establishment Address Update
 **Date**: Current Session
 **Change**: Updated establishment address from Columbus, OH to Haverford, PA

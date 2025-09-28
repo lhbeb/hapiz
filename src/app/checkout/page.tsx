@@ -373,7 +373,7 @@ const CheckoutPage: React.FC = () => {
           </div>
           {/* Trust Icon Row: Only Secure Checkout */}
           <div className="w-full flex justify-center mt-4 mb-2">
-            <Image src="/secure-checkout.png" alt="Secure Checkout" width={200} height={32} className="h-8 w-auto max-w-full object-contain" />
+            <Image src="/secure-checkout.png?v=2" alt="Secure Checkout" width={392} height={63} className="h-16 w-auto max-w-full object-contain" />
           </div>
         </div>
       </div>
@@ -637,11 +637,11 @@ const CheckoutPage: React.FC = () => {
 
                     <div className="mt-6 flex flex-col items-center space-y-4">
                       <Image 
-                        src="/secure-checkout.png" 
+                        src="/secure-checkout.png?v=2" 
                         alt="Secure Checkout" 
-                        width={200}
-                        height={32}
-                        className="h-8 w-auto max-w-full object-contain"
+                        width={392}
+                        height={63}
+                        className="h-16 w-auto max-w-full object-contain"
                       />
                       <div className="text-sm text-gray-600">
                         <span className="font-medium text-[#0046be]">SSL Encrypted</span> Secure Checkout
